@@ -1,0 +1,8 @@
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+    <feature name="restlet-example">
+      <feature>http</feature>
+      <bundle dependency='true'>mvn:org.restlet.jee/org.restlet/2.0.10</bundle>
+      <bundle dependency='true'>mvn:org.restlet.jee/org.restlet.ext.servlet/2.0.10</bundle>
+      <bundle>mvn:net.sheenobu.osgi/restlet-example/0.1-SNAPSHOT</bundle>
+    </feature>
+</features>
